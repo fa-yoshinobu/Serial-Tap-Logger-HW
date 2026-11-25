@@ -1,0 +1,10 @@
+# Keep text files LF on every OS (KiCad writes LF).
+* text=auto eol=lf
+
+# Binary files
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.zip  binary
+*.stl  binary
+*.sc   binary

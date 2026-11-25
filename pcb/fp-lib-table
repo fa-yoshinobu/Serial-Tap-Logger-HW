@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Tap")(type "KiCad")(uri "${KIPRJMOD}/Tap.pretty")(options "")(descr "")))

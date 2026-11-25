@@ -1,0 +1,133 @@
+(footprint "D_SMA_DFM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode SMA (DO-214AC), pad 1 = cathode")
+	(property "Reference" "REF**"
+		(at 0 -2.4)
+		(layer "F.SilkS")
+		(uuid "1fc25b9a-df55-492f-b397-022e9d5c86a2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Value" "SS34"
+		(at 0 2.4)
+		(layer "F.Fab")
+		(uuid "e71f12f5-f40a-4a13-9adb-a2c7148862c5")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd52cfd-55e3-4bde-a20a-0b5eb93e46a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b55aa28c-a8ec-4d0d-8fbf-89da7f2329c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.6 -1.6)
+		(end 3.6 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "37c590e4-c759-4847-a366-024dd38baad5")
+	)
+	(fp_rect
+		(start -2.25 -1.3)
+		(end 2.25 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6260eca5-3e71-4042-9a85-c036936a0cd9")
+	)
+	(fp_line
+		(start -3.55 -1.45)
+		(end -3.55 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "570e9478-a7cc-42b8-b3b1-745ebc0f8be6")
+	)
+	(fp_line
+		(start -3.55 -1.45)
+		(end 1 -1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "017ebff6-8391-46ec-bb04-63a90f36d8bf")
+	)
+	(fp_line
+		(start -3.55 1.45)
+		(end 1 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd93b675-82ba-433a-9f36-ba9fb6955e6e")
+	)
+	(pad "1" smd roundrect
+		(at -2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6f759bd0-64fc-430d-9ace-a0fb54d15712")
+	)
+	(pad "2" smd roundrect
+		(at 2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a0eb33b4-9f84-4632-aadc-7a05b83cee33")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

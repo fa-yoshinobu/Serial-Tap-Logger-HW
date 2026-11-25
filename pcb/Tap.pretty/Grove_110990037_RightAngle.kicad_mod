@@ -1,0 +1,280 @@
+(footprint "Grove_110990037_RightAngle"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6.15 0)
+		(layer "F.SilkS")
+		(uuid "86a41ee8-2a48-412f-8bf3-559f0d29ca4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Grove_110990037_RightAngle"
+		(at -0.025 6.45 0)
+		(layer "F.Fab")
+		(uuid "45f56df7-e994-461b-ba60-be12cfb77059")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6aa9c4e-ffb4-4330-8bda-1715058472c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f866e006-9436-426b-9887-6cfa728bc6e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "523dac41-11dd-4161-9c42-4f5540a348f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(descr "Seeed Grove 4-pin 2.0 mm right-angle 110990037 (Akizuki 112634). Source: fa-yoshinobu/PCB_Rule modules/seeed_Grove_110990037. Cable entry at -Y.")
+	(attr through_hole)
+	(fp_line
+		(start -5 -0.9)
+		(end -5 4.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09572266-40e1-46c5-bbd4-fac06b366423")
+	)
+	(fp_line
+		(start 5 -0.9)
+		(end 5 4.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dda4308f-5e9b-4d73-a139-445fb60a1000")
+	)
+	(fp_line
+		(start 5 4.9)
+		(end -5 4.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da5f1f0a-7b24-4e39-bede-a630743da547")
+	)
+	(fp_line
+		(start -5.25 -5.15)
+		(end -5.25 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80ab5cc8-ed74-47a1-8c64-46a5061e17f5")
+	)
+	(fp_line
+		(start -5.25 5.15)
+		(end 5.25 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f885c709-6067-4926-ae97-74e88d01fafc")
+	)
+	(fp_line
+		(start 5.25 -5.15)
+		(end -5.25 -5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c01a76b-0354-49e8-95ef-25bd0a642f71")
+	)
+	(fp_line
+		(start 5.25 5.15)
+		(end 5.25 -5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2050b10b-fb6c-4671-9779-8b68dceb125a")
+	)
+	(fp_line
+		(start -5 -4.9)
+		(end -2.79908 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d526f77-7579-4dd1-afab-1b389cab19f1")
+	)
+	(fp_line
+		(start -5 1.6)
+		(end 5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb87cf07-57f7-4c09-9190-641a1ce3ef7b")
+	)
+	(fp_line
+		(start -5 4.9)
+		(end -5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ca2298f-cfdb-43ca-9051-1babf7e1bf48")
+	)
+	(fp_line
+		(start -5 4.9)
+		(end 5 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a88aa24-9269-4d9d-aa96-577e9d842f99")
+	)
+	(fp_line
+		(start -2.79908 -4.9)
+		(end -2.79908 -3.8989)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "758be8a8-6b3a-4d7d-bae4-84eb3c64b696")
+	)
+	(fp_line
+		(start -2.79908 -3.8989)
+		(end 2.79908 -3.8989)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "092198be-de15-4625-a986-b7067a4bb330")
+	)
+	(fp_line
+		(start 2.79908 -4.9)
+		(end 5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7f52fe6-3347-4b06-8aae-2e1cf0c248a8")
+	)
+	(fp_line
+		(start 2.79908 -3.8989)
+		(end 2.79908 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35dabfdc-b000-4971-a94a-8f81d075ce69")
+	)
+	(fp_line
+		(start 5 4.9)
+		(end 5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "552ce4b2-3346-4bc3-ab49-9a71f55d1706")
+	)
+	(fp_text user "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "651c04fc-4fca-4418-85aa-1e47ef12f723")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.99974 3.20012)
+		(size 1.3 1.3)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76f6f884-1af4-4613-b822-5a26d4951383")
+	)
+	(pad "2" thru_hole circle
+		(at -0.99822 3.2)
+		(size 1.3 1.3)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e2be88f-4db6-47f5-afe5-1bb9c76f83c3")
+	)
+	(pad "3" thru_hole circle
+		(at 0.99822 3.2)
+		(size 1.3 1.3)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5b45bfa-2a05-465e-8e96-c03206f8677f")
+	)
+	(pad "4" thru_hole circle
+		(at 2.99974 3.2)
+		(size 1.3 1.3)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95784cb2-9d23-4a9e-8344-812668ae40cb")
+	)
+	(model "${KIPRJMOD}/Tap.pretty/GROVE_110990037_ENVELOPE.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

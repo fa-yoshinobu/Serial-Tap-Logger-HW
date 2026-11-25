@@ -1,0 +1,125 @@
+(footprint "ROHM_BP5293_SIP3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ROHM BP5293 3-terminal DC/DC, SIP3 2.54 mm. Body centred on pins: verify against datasheet Fig.31")
+	(property "Reference" "REF**"
+		(at 0 -4.6)
+		(layer "F.SilkS")
+		(uuid "cca59471-8910-420f-85c9-680fdc2ae734")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Value" "BP5293-50"
+		(at 0 4.6)
+		(layer "F.Fab")
+		(uuid "56a13a83-905b-4286-a843-432c8fd10eb3")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75913ba0-8a37-4e05-a639-db7925a29b06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cc908bb-6552-41a2-9c1c-c93e4cc86028")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 8.25 -3.85)
+		(end -8.25 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b52f25da-b46e-4073-a7d7-62340eead4c4")
+	)
+	(fp_rect
+		(start 8 -3.6)
+		(end -8 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3c4e1568-b4e2-4789-bdde-6442ffca3f08")
+	)
+	(fp_rect
+		(start 8.1 -3.7)
+		(end -8.1 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "21b21b0b-3b6e-46e6-a674-42290ba59634")
+	)
+	(fp_line
+		(start 4 -3.7)
+		(end 4 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19688e8d-d11b-4500-bb73-893024e2dd22")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6f3006cc-41e1-4e00-bc4a-c1772bb7f2db")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "496e7815-2dfa-442a-893b-a0fad7587e3e")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "753d7d0b-af72-4f70-b486-d5fbbdf812c6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-models/ROHM_BP5293-50.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

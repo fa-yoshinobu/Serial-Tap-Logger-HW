@@ -1,0 +1,66 @@
+(footprint "SII_VT-200-F_D2.0mm_Vertical"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "SII VT-200-F (Akizuki 104005), vertical hand assembly, leads formed to 1.27 mm pitch")
+  (tags "crystal VT-200-F 104005 THT")
+  (attr through_hole exclude_from_pos_files)
+
+  (property "Reference" "REF**" (at 0 -1.8 0)
+    (layer "F.SilkS")
+    (uuid "e352d03a-53f9-40bd-ab5d-d1c9bee088d3")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SII_VT-200-F_D2.0mm_Vertical" (at 0 1.8 0)
+    (layer "F.Fab")
+    (uuid "7e088088-3fad-4258-8494-a82d164329ba")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "https://akizukidenshi.com/goodsaffix/VT-200F.pdf" (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "e41d8c0b-20b7-4b71-baf1-afe72c9e224f")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -1.3 -1.25)
+    (end 1.3 1.25)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "ae9ff3ac-4efa-4fc1-8564-46109735ddee")
+  )
+
+  (fp_circle
+    (center 0 0)
+    (end 1 0)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "5d78b262-ab6f-4462-aee8-01cc5a52c300")
+  )
+
+  (pad "1" thru_hole circle
+    (at 0.635 0)
+    (size 1.05 1.05)
+    (drill 0.55)
+    (layers "*.Cu" "*.Mask")
+    (uuid "b379f398-5289-4850-bee9-94ed2183b017")
+  )
+
+  (pad "2" thru_hole circle
+    (at -0.635 0)
+    (size 1.05 1.05)
+    (drill 0.55)
+    (layers "*.Cu" "*.Mask")
+    (uuid "92a82a8d-eecc-4181-a72a-e85d5f2bc35c")
+  )
+
+	(model "${KIPRJMOD}/3d-models/SII_VT-200-F_104005.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)
